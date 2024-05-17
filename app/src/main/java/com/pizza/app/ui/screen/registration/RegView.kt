@@ -113,3 +113,8 @@ fun Auth(
     }
 }
 
+@Preview
+@Composable
+fun RegPreview(){
+    RegView()
+}

@@ -39,6 +39,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.pizza.app.R
 import com.pizza.app.ui.elements.EditText
 import com.pizza.app.ui.elements.Header
@@ -50,6 +51,7 @@ import com.pizza.app.ui.theme.DarkBlue
 import com.pizza.app.ui.elements.DefButton
 import com.pizza.app.ui.navigation.EnterAnimation
 import com.pizza.app.ui.screen.main.HistoryItem
+import com.pizza.app.ui.screen.registration.RegView
 import com.pizza.app.ui.theme.Red
 import com.pizza.app.ui.theme.White
 import com.pizza.app.ui.theme.borderSize
@@ -305,3 +307,10 @@ private fun Body(
     }
 }
 
+@Preview
+@Composable
+fun BasketPreview() {
+    val mainViewModel = hiltViewModel<MainViewModel>()
+    val navController = rememberNavController()
+    BasketView(mainViewModel, navController)
+}

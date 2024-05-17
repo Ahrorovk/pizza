@@ -30,8 +30,10 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
+import androidx.navigation.compose.rememberNavController
 import com.pizza.app.ui.elements.Header
 import com.pizza.app.ui.navigation.Screen
+import com.pizza.app.ui.screen.basket.BasketView
 import com.pizza.app.ui.screen.main.MainViewModel
 import com.pizza.app.ui.theme.Beige
 import com.pizza.app.ui.theme.Black
@@ -141,5 +143,13 @@ private fun UI(
                 }
             }
         }
+    }
+}
+@Preview
+@Composable
+fun HistoryPreview() {
+    val mainViewModel = hiltViewModel<MainViewModel>()
+    UI(mainViewModel){
+
     }
 }
