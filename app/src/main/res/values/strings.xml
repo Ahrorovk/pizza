@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Пиццерия</string>
+
+<!--    login-->
+    <string name="pizza">Pizza</string>
+    <string name="mail">Почта</string>
+    <string name="pass">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="toastNotFoundUser">Пользователь не найден или неверный пароль</string>
+    <string name="registration">Зарегистрироваться</string>
+<!--    Header-->
+    <string name="back">Назад</string>
+<!--    Main-->
+    <string name="logout">Выйти</string>
+
+    <string name="weight">Вес:</string>
+    <string name="price">Цена:</string>
+    <string name="size">Размер</string>
+    <string name="mSize">30см</string>
+    <string name="lSize">40см</string>
+    <string name="xlSize">45см</string>
+    <string name="dough">Тесто</string>
+    <string name="doughThin">Тонкое</string>
+    <string name="doughFat">Толстое</string>
+    <string name="pay">Купить</string>
+
+<!--    Pay-->
+    <string name="payed">К покупке</string>
+    <string name="contactPhone">Телефон для связи</string>
+    <string name="enterAddress">Адрес доставки</string>
+    <string name="choicePayType">Выберете способ оплаты</string>
+    <string name="payTypeCash">Наличный</string>
+    <string name="payTypeCard">По карте</string>
+    <string name="order">Заказать</string>
+    <string name="toastSuccess">Заказ сформирован и будет доставлен течении 30 минут!</string>
+
+<!--reg-->
+    <string name="repPass">Повторите пароль</string>
+    <string name="toastEnterPass">Введите пароль</string>
+    <string name="toastPassDoNotMutch">Пароли не совпадают</string>
+</resources>
